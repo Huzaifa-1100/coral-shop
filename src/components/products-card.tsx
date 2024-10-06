@@ -50,7 +50,7 @@ const ProductsCard = async () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {productData.map((prodData) => {
           return (
-            <div className="py-2" key={prodData._id}>
+            <div className="py-2 mx-auto" key={prodData._id}>
               <SingleProductCard product={prodData} />
             </div>
           );
